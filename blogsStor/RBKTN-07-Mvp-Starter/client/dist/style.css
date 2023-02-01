@@ -1,0 +1,70 @@
+
+
+
+img {
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-items: center;
+  justify-content: center;
+  padding: 10%;
+  gap:10px;
+  background-image: url("https://cdn.vox-cdn.com/thumbor/5qo2WTY5Kn_eHgNjKVlM9R-sNYg=/0x342:4779x2844/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/23084108/1237205605.jpg");
+  background-repeat: no-repeat;
+ background-size: cover;
+ 
+}
+.input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.button-34 {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.spinner {
+    float: right;
+    height: 46px;
+    margin-bottom: 5px;
+}
+.spinner img {
+    padding: 10px;
+}
+/* .wrapper {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+} */
+#ahla{
+  padding-left: 30px;
+  grid-auto-rows: auto;
+}
+.blog h1{
+  margin-left: 80px;
+  color:tomato;
+}
